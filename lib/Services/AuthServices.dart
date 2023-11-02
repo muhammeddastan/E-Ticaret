@@ -36,6 +36,7 @@ class AuthService {
 
       return user;
     } catch (e) {
+      //Deneme
       // Diğer olası hataları ele almak için burada hata işleme ekleyebilirsiniz.
       print("Hata: $e");
       return null;
